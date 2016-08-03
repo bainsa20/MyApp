@@ -76,7 +76,11 @@ h1 {
     overflow:visible;
     padding:0px;
     text-align:center;
-}
+    
+}    p {
+        padding-right: 10px;
+        color: blue;
+    }
 
 .event {
     border-radius:4px;
@@ -113,3 +117,8 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+#square {
+        width:50px;
+        height:50px;
+        border:2px solid #000;
+    }
